@@ -17,8 +17,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        # Every version pyproject.toml claims (requires-python >= 3.9, classifiers 3.9-3.13).
-        python-version: ["3.9", "3.10", "3.11", "3.12", "3.13"]
+        # Every version pyproject.toml claims (requires-python >= 3.9, classifiers 3.9-3.14).
+        python-version: ["3.9", "3.10", "3.11", "3.12", "3.13", "3.14"]
     defaults:
       run:
         working-directory: clients/python
